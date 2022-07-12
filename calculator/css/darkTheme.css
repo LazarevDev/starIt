@@ -1,0 +1,32 @@
+body{
+    background: #1E2129;
+}
+
+.calculator{
+    background: #14171E;
+}
+
+.input{
+    color: #fff;
+}
+
+.numbers{
+    background: #1A1D24;
+
+}
+
+.numbers button{
+    color: #fff;
+}
+
+.numbers button:hover{
+    background: #252831;
+}
+
+.orangeText{
+    color: #FF7A00 !important;
+}
+
+.orangeBg{
+    background: #FF7A00 !important;
+}

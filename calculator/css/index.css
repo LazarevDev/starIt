@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.containerCalculator{
+    width: 320px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.calculator{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin: 60px 0 0 0;
+    border-radius: 10px;
+}
+
+.input{
+    text-align: right;
+}
+
+.input p{
+    margin: 25px;
+    font-size: 14px;
+}
+
+.inputFields{
+    width: 100%;
+}
+
+.currentNumber p{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+    overflow: hidden;
+}
+
+.numbers button{
+    width: 80px;
+    height: 80px;
+    background: none;
+    border: 0px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
